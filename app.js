@@ -1,4 +1,5 @@
 //Menu lateral
+
 var menu_visible = false;
 let menu = document.getElementById("nav");
 function mostrarOcultarMenu(){
@@ -12,6 +13,7 @@ function mostrarOcultarMenu(){
     }
 }
 //ocultar el menu una vez que selecciono una opción
+
 let links = document.querySelectorAll("nav a");
 for(var x = 0; x <links.length;x++){
     links[x].onclick = function(){
@@ -21,6 +23,7 @@ for(var x = 0; x <links.length;x++){
 }
 
 //Creo las barritas de una barra particular identificada por su id
+
 function crearBarra(id_barra){
     for(i=0;i<=16;i++){
         let div = document.createElement("div");
@@ -30,6 +33,7 @@ function crearBarra(id_barra){
 }
 
 //selecciono todas las barras generales para luego trabajarlas
+
 let html = document.getElementById("html");
 crearBarra(html);
 let javascript = document.getElementById("javascript");
@@ -46,11 +50,12 @@ crearBarra(ilustrator);
 //Guardo la cantidad de barritas que se van a ir pintando por cada barra
 //para eso utilizo un arreglo, cada posición pertenece a un elemento
 //comienzan en -1 porque no tiene ninguna pintada al iniciarse
-let contadores = [-1,-1,-1,-1,-1,-1];
 
+let contadores = [-1,-1,-1,-1,-1,-1];
 let entro = false;
 
 //función que aplica las animaciones de la habilidades
+
 function efectoHabilidades(){
     var habilidades = document.getElementById("habilidades");
     var distancia_skills = window.innerHeight - habilidades.getBoundingClientRect().top;

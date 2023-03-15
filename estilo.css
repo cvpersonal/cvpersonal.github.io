@@ -11,6 +11,7 @@ html{
 }
 
 /* SECCION INICIO */
+
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("imagenes/imagen.jpg");
@@ -28,6 +29,7 @@ html{
     padding: 30px;
 }
 /* menu lateral */
+
 .inicio .contenido-seccion header nav{
     position: fixed;
     margin-left: 60px;
@@ -117,11 +119,13 @@ html{
     transform: translateX(-50%);
 }
 /* estilos generales */
+
 .titulo-seccion{
     font-family: "Yellowtail";
     font-size: 1.5rem;
 }
 /* SECCION SOBRE MI */
+
 .sobremi{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
@@ -169,6 +173,7 @@ html{
     margin: 8px 0;
 }
 /* SECCION HABILIDADES */
+
 .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
@@ -215,6 +220,7 @@ html{
     margin-right: 2px;
 }
 /* SECCION RESUMEN */
+
 .resumen{
     background-color: #e6e6e6;
     padding: 60px 0 100px 0;
